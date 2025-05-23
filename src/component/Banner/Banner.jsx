@@ -6,11 +6,11 @@ import { FaFacebookF, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="text-gray-200 bg-gray-900" id="home">
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center gap-10 px-6 py-10 lg:py-20">
+    <div className="text-gray-200 bg-gray-900 ">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center gap-10 px-6 md:px-0 py-10 lg:py-20 ">
         {/* Left Section - Text Content */}
         <motion.div
-          className="flex flex-col justify-center md:pl-24 text-center lg:text-left lg:w-1/2"
+          className="flex flex-col justify-center md:pl-0 text-center lg:text-left lg:w-1/2"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -111,7 +111,7 @@ const Banner = () => {
 
         {/* Right Section - Profile Image */}
         <motion.div
-          className="flex items-center justify-center lg:w-1/2"
+          className="flex items-center justify-end lg:w-1/2"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 3, ease: "easeOut", type: "spring" }}

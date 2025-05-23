@@ -29,13 +29,13 @@ const Contact = () => {
 
    return (
       <motion.section 
-         className="md:pt-12 pt-20 mb-12 bg-black text-white" 
+         className="w-full mx-auto md:pt-12 pt-20 mb-12 bg-black text-white " 
          id="contact"
          initial={{ opacity: 0 }}
          animate={{ opacity: 1 }}
          transition={{ duration: 1 }}
       >
-         <div className="container mx-auto px-6 sm:px-8 md:px-16">
+         <div className="container mx-auto px-6 sm:px-8 md:px-8">
             <motion.div 
                initial={{ opacity: 0, y: -20 }}
                animate={{ opacity: 1, y: 0 }}

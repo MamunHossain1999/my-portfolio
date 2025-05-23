@@ -6,10 +6,10 @@ import { TiWorld } from "react-icons/ti";
 
 const Services = () => {
   return (
-    <section className="container mx-auto pt-12 mb-12 md:px-12 bg-black" id="service">
+    <section className="container mx-auto pt-12 pb-20 md:px-1 bg-black" id="service">
       <div className="container">
-        <div className="pb-10">
-          <h4 className="title text-center text-4xl text-primary">My Services</h4>
+        <div className="pb-20">
+          <h4 className="title text-center text-4xl  text-primary">My Services</h4>
           <h3 className="font-semibold md:text-xl text-lg mb-2 text-center text-gray-400">
             {"<-~-"} Which services I provide. {"-~->"}
           </h3>

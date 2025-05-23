@@ -36,8 +36,8 @@ const Project = () => {
   ];
 
   return (
-    <div id="projects" className="py-10 bg-[#121212] w-11/12 mx-auto">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div id="projects" className="py-10 bg-[#121212] w-full mx-auto">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-center text-white mb-8">
           My Projects
         </h2>

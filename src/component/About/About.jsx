@@ -5,8 +5,8 @@ import mamun from "../../assets/mamun.png";
 
 const About = () => {
   return (
-    <section className="md:pt-12 py-16 bg-gray-900 text-white" id="about">
-      <div className="container mx-auto px-6 sm:px-8 md:px-16">
+    <section className="w-full mx-auto md:pt-12 py-16 bg-gray-900 text-white" id="about">
+      <div className="container mx-auto px-6 sm:px-8 md:px-1">
         {/* Section Title */}
         <div className="text-center mb-8">
           <motion.h4
@@ -28,10 +28,10 @@ const About = () => {
         </div>
 
         {/* About Content */}
-        <div className="container mx-auto px-6 sm:px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="container mx-auto px-6 sm:px-8 md:px- grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-between">
           {/* Image Section */}
           <motion.div
-            className="flex justify-center"
+            className="flex "
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -39,7 +39,7 @@ const About = () => {
             <img
               src={mamun}
               alt="Md Mamun Hossain"
-              className="rounded-xl w-full max-w-[300px] md:max-w-[400px] h-[300px] md:h-[400px] object-cover"
+              className="rounded-xl w-full max-w-[400px] md:max-w-[560px] h-[300px] md:h-[600px] object-cover"
             />
           </motion.div>
 

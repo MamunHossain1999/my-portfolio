@@ -15,14 +15,14 @@ const Footer = () => {
           >
             <Link
               to="/"
-              className="inline-flex items-center md:pl-16 text-2xl md:text-3xl font-bold text-gray-100 hover:text-[#0dccf2]"
+              className="inline-flex items-center md:pl-9 text-2xl md:text-3xl font-bold text-gray-100 hover:text-[#0dccf2]"
             >
               <span className="text-[#0dccf2] mr-2">Passion</span> for{" "}
               <span className="text-[#f5a623] ml-2">Technology</span>
             </Link>
 
             <motion.h3
-              className="text-lg md:pl-16 text-gray-400 mt-2 font-medium"
+              className="text-lg md:pl-9 text-gray-400 mt-2 font-medium"
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}

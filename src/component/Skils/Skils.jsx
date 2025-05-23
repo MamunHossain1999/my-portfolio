@@ -11,6 +11,7 @@ import node from "../../assets/nodejspng.png";
 import exprees from "../../assets/express-js.png";
 import mongodb from "../../assets/mongodb.png";
 import { Tooltip } from "react-tooltip";
+import { div } from "framer-motion/client";
 
 const Skills = () => {
   const skills = [
@@ -27,8 +28,10 @@ const Skills = () => {
   ];
 
   return (
-    <div
-      className="py-11  px-6 sm:px-12 lg:px-20 bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white"
+    <div className="w-full mx-auto py-11  px-6 sm:px-12 lg:px-20 bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white"
+      id="skills">
+      <div
+      className="container mx-auto py-11  px-6 sm:px-12 lg:px-20  text-white"
       id="skills"
     >
       {/* Section Title */}
@@ -63,6 +66,7 @@ const Skills = () => {
           </motion.div>
         ))}
       </Marquee>
+    </div>
     </div>
   );
 };
