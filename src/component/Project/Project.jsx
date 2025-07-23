@@ -9,19 +9,19 @@ const Project = () => {
         "https://img.freepik.com/free-photo/merchant-giving-package-courier_482257-90451.jpg?ga=GA1.1.1062747228.1733425109&semt=ais_hybrid",
       description:
         "FoodSharing is a platform where users can share excess food with others in need. It's a community-driven initiative to reduce food waste and help those who are struggling with hunger.",
-      liveLink: "https://foodsharing-96323.web.app",
+      liveLink: "https://lustrous-cassata-4ef2e4.netlify.app",
       githubLink:
-        "https://github.com/programming-hero-web-course2/b10a11-client-side-MamunHossain1999",
+        "https://github.com/MamunHossain1999/assignment-11-client",
     },
     {
-      name: "Movie-Portal",
+      name: "Library Management",
       image:
-        "https://img.freepik.com/free-vector/vector-banner-movie-time_107791-8496.jpg?ga=GA1.1.1062747228.1733425109&semt=ais_hybrid",
+        "https://i.ibb.co/WmDYh0V/photo-1512820790803-83ca734da794.jpg",
       description:
         "Movie-Portal is an online platform where movie enthusiasts can browse, rate, and review their favorite movies. It provides information about movies, including cast, director, and release dates.",
-      liveLink: "https://movie-portal-9cc54.web.app",
+      liveLink: "https://libray-management-system-frontend.vercel.app",
       githubLink:
-        "https://github.com/programming-hero-web-course2/b10-a10-client-side-MamunHossain1999",
+        "https://github.com/MamunHossain1999/libray-management-system-frontend",
     },
     {
       name: "Eco-Adventure",
@@ -54,7 +54,7 @@ const Project = () => {
               <motion.img
                 src={project.image}
                 alt={project.name}
-                className="w-full h-48 object-cover"
+                className="w-full h-64 object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}

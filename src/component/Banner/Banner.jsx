@@ -6,7 +6,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="text-gray-200 bg-gray-900 ">
+    <div className="text-gray-200 bg-gray-900 mt-16 ">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center gap-10 px-6 md:px-0 py-10 lg:py-20 ">
         {/* Left Section - Text Content */}
         <motion.div

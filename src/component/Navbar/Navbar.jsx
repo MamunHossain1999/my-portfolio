@@ -6,7 +6,7 @@ import Resume from "../Resume/Resume";
 
 const Navbar = () => {
   return (
-    <div className="z-[4000] py-6 w-full mx-auto  bg-black text-white sticky top-0 ">
+    <div className="z-[4000] py-6 w-full mx-auto  bg-black text-white fixed top-0 ">
       <div className="relative container mx-auto flex items-center justify-between ">
         <Link to="/" className="inline-flex items-center">
           <span className="ml-2 text-2xl font-serif font-bold tracking-wide text-gray-100 uppercase">
