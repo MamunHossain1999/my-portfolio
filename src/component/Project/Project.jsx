@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 const Project = () => {
   const projects = [
     {
-      name: "FoodSharing",
+      name: "Digital Wallet",
       image:
-        "https://img.freepik.com/free-photo/merchant-giving-package-courier_482257-90451.jpg?ga=GA1.1.1062747228.1733425109&semt=ais_hybrid",
+        "https://i.ibb.co.com/ccJ4z0mj/3517061.jpg",
       description:
-        "FoodSharing is a platform where users can share excess food with others in need. It's a community-driven initiative to reduce food waste and help those who are struggling with hunger.",
-      liveLink: "https://lustrous-cassata-4ef2e4.netlify.app",
+        "Digital Wallet is a platform that allows users to make secure online transactions, manage their finances, and access various financial services from their devices.",
+      liveLink: "https://digital-wallet-client-mu.vercel.app/",
       githubLink:
-        "https://github.com/MamunHossain1999/assignment-11-client",
+        "https://github.com/MamunHossain1999/digital-wallet-client",
     },
     {
       name: "Library Management",
